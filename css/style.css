@@ -12,6 +12,10 @@ body {
   padding: 0;
   min-width: 100vw;
   min-height: 100vh;
+  background color: background: #EC7A3C;
+background: -webkit-linear-gradient(right, #EC7A3C, #DA0B09);
+background: -moz-linear-gradient(right, #EC7A3C, #DA0B09);
+background: linear-gradient(to left, #EC7A3C, #DA0B09);
 }
 
 .center {
@@ -38,10 +42,16 @@ body {
   font-size: 500px;
 }
  
-.span{
-  position: absolute;
-  top: 50%;
-}
+ .header h3{
+  color: white;
+  font-family: roboto;
+ }
+
+ .header h2{
+  color: white;
+  font-family: roboto;
+ }
+
 
 
 }
