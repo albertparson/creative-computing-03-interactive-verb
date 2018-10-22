@@ -32,15 +32,7 @@ background: linear-gradient(to left, #EC7A3C, #DA0B09);
   width: 100%;
 }
 
-.verb h1 {
-  font-size: 50px;
-  text-align: center;
-}
 
-.verb h1 span:hover{
-  color: red;
-  font-size: 500px;
-}
  
  .header h3{
   color: white;
@@ -50,9 +42,23 @@ background: linear-gradient(to left, #EC7A3C, #DA0B09);
  .header h2{
   color: white;
   font-family: roboto;
+  position: absolute;
+  top: -250%;
+
  }
 
-
-
+.shape {
+  width: 150px;  
+  height: 150px;
+  position: absolute;
+  top: 20%;
+  right: 40%;
+  background: red;
+  transition: all 3s;
+  transition-delay: 1s;
+  background-color: white;
+  transform: skew(30deg);
 }
+
+
 
