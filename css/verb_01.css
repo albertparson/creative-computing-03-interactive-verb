@@ -44,8 +44,6 @@ background: linear-gradient(to left, #EC7A3C, #DA0B09);
   transition-delay: 1s;
   background-color: white;
   transform: skew(30deg);
-  transition: all 3s;
-  transition-delay: 1s;
   }
 
 
@@ -60,13 +58,10 @@ background: linear-gradient(to left, #EC7A3C, #DA0B09);
   animation: jump .45s linear alternate infinite;
 }
 
-.shape:hover{
-  transform: skewX(45deg);
-  transform: rotateZ(405deg) scale(1.5);
+body:hover .variation-1{
+  transform: rotateZ(1005deg) scale(1.5);
   background-color: blue;
 }
-
-
 .transforms {
   transform: rotateZ(45deg);
   transform: rotateX(45deg);
