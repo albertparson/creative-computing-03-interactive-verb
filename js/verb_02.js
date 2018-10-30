@@ -10,6 +10,16 @@ function randomNumber (min, max) {
   return Math.floor(Math.random() * (max - min + 1)) + min;
 }
 
+var shape = document.querySelector(".variation-1");
+
+var width = randomNumber(150, 700);
+var height = randomNumber(150, 100);
+
+shape.style.width = width + "px";
+shape.style.height = height + "px";
+
+shape.style.background = hslColor(h1, 50, 50);
+shape.style.borderColor = hslColor(h2, 50, 50);
 
 
 /*
@@ -33,9 +43,3 @@ function randomFloat (min, max) {
   return parseFloat(value.toFixed(2));
 }
 
-var shape = document.querySelector(".variation");
-var width = randomNumber(1000, 2000);
-var height = randomNumber(1000, 2000);
-
-shape.style.width = width + "px";
-shape.style.height = height + "px";
