@@ -10,6 +10,8 @@ function randomNumber (min, max) {
   return Math.floor(Math.random() * (max - min + 1)) + min;
 }
 
+
+
 /*
   Returns a random floating point number between minimum value and maximum value
 
@@ -31,3 +33,9 @@ function randomFloat (min, max) {
   return parseFloat(value.toFixed(2));
 }
 
+var shape = document.querySelector(".variation");
+var width = randomNumber(1000, 2000);
+var height = randomNumber(1000, 2000);
+
+shape.style.width = width + "px";
+shape.style.height = height + "px";

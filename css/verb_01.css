@@ -40,12 +40,11 @@ background: linear-gradient(to left, #EC7A3C, #DA0B09);
   top: 20%;
   right: 40%;
   background: red;
-  transition: all 3s;
-  transition-delay: 1s;
+  transition: all 0s;
+  transition-delay: 0s;
   background-color: white;
   transform: skew(30deg);
   }
-
 
 @keyframes jump {
   0%   {transform: translate3d(0,0,0) scale3d(1,1,1);}
@@ -54,12 +53,13 @@ background: linear-gradient(to left, #EC7A3C, #DA0B09);
 }
 
 .variation-1 {
+  transform: skew(30deg);
   transform-origin: 50% 50%;
   animation: jump .45s linear alternate infinite;
 }
 
-body:hover .variation-1{
-  transform: rotateZ(1005deg) scale(1.5);
+ .variation-1:hover{
+  transform: translateX(50px) scaleX(1.5) skew(30deg);
   background-color: blue;
 }
 .transforms {
