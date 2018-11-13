@@ -19,7 +19,7 @@ shape.style.width = width + "px";
 shape.style.height = height + "px";
 
 shape.style.background = hslColor(h1, 50, 50);
-shape.style.borderColor = hslColor(h2, 50, 50);
+
 
 
 /*
