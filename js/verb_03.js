@@ -18,7 +18,7 @@ function randomFloat (min, max) {
   var float = Math.random();
   var value;
 
-  if (float < 0.5) {
+  if (float < 0.1) {
     value = (1 - Math.random()) * (max-min) + min;
   } else {
     value = Math.random() * (max-min) + min;
