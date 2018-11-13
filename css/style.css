@@ -57,7 +57,7 @@ background: linear-gradient(to left, #EC7A3C, #DA0B09);
   transition: all 3s;
   transition-delay: 1s;
   background-color: white;
-  transform: skew(30deg);
+  
 }
 
 
